@@ -1,0 +1,39 @@
+public static void main(String[] args) { 
+    int counter= 0;
+    int initialNumber= 0;
+    int finaleone=0;
+    int finaletwo=0;
+    int finalfinale=0;
+    int sum=0;
+    int difference=0;
+    while (initialNumber<101){
+      {finaleone= finaleone+(initialNumber*initialNumber);
+        
+      }
+     initialNumber=initialNumber+1;
+    }
+    
+    System.out.println(finaleone);
+    
+    initialNumber= 0;
+   
+    while (initialNumber<101){
+      sum=sum+initialNumber;
+    initialNumber=initialNumber+1;
+    }
+    System.out.println(initialNumber);
+    System.out.println(sum);
+    finaletwo= sum*sum;
+    System.out.println(finaletwo);
+    difference = (finaletwo-finaleone);
+    System.out.println(difference);
+    
+    long c = (long) difference;
+    System.out.println(difference);
+  }
+      
+  
+
+  /* ADD YOUR CODE HERE */
+  
+}
