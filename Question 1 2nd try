@@ -1,0 +1,24 @@
+
+public class ProjectEuler1Take2 {
+  
+  
+  public static void main(String[] args) { 
+    int sum=0;
+    int cons=0;
+    
+    while (cons<200){
+      sum=sum +(cons*5);
+        cons= cons+1;
+    }
+    System.out.println (sum);
+    cons=0;
+    while (cons<334){
+      sum=sum +(cons*3);
+        cons= cons+1;
+    }
+    System.out.println (sum);    
+    
+  }
+
+  
+}
