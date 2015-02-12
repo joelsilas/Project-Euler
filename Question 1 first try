@@ -1,0 +1,29 @@
+
+public class ProjectEuler1 {
+  
+  
+  public static void main(String[] args) { 
+    
+    int limit=1000;
+    int first=5;
+    int second=3;
+    int sum=0;
+    
+    int firsttotal= (limit/first)-1; // number of times 5 goes into 1000
+     int secondtotal= limit/second; // number of times 5 goes into 1000
+     System.out.println(firsttotal);
+     System.out.println(secondtotal);
+     while (secondtotal>0){
+    sum = sum +(secondtotal*3);
+      secondtotal= secondtotal-1;
+    
+    }
+     System.out.println(sum);
+     while (firsttotal>0){
+    sum = sum +(firsttotal*5);
+      firsttotal= firsttotal-1;
+    
+    }
+    System.out.println(sum);
+  }
+  
